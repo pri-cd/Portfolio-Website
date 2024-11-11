@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Another cool project
+title: Gamma and Hadron Ray Classification
 colors: colors-a
 date: '2021-12-20'
 client: Awesome client
