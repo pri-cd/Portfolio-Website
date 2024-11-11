@@ -14,7 +14,7 @@ featuredImage:
   caption: Image of MAGIC Telescope @ Night
 media:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: /images/MAGIC.jpg
   altText: Project image
 ---
 ## **MAGIC Gamma Telescope Dataset Analysis**
