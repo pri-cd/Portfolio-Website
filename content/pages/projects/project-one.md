@@ -6,7 +6,7 @@ date: '2024-11-10'
 client: Data Science & Analytics
 description: >-
   Analyzing hotel booking data to extract valuable insights and build a
-  predictive model for booking status classification.
+  predictive model for booking status classification (EDA).
 featuredImage:
   type: ImageBlock
   url: /images/Unsplash-EDA.jpg
