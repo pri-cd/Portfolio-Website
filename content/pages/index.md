@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 75
 sections:
   - elementId: ''
-    colors: colors-c
+    colors: colors-d
     backgroundSize: full
     title: >-
       I’m an MBA, Data Scientist, investment connoisseur, & economics
