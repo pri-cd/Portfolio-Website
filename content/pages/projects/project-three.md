@@ -13,7 +13,7 @@ featuredImage:
   altText: YFinance API Integration With Telegram Bot
 media:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/Unsplash-YF.jpg
   altText: Project image
 ---
 ### **Daily Automation – Your One-Stop Solution for Staying Motivated, Updated and Informed Every Day**
