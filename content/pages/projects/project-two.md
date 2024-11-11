@@ -1,7 +1,7 @@
 ---
 type: ProjectLayout
 title: Gamma and Hadron Ray Classification
-colors: colors-c
+colors: colors-e
 date: '2024-10-15'
 client: Machine Learning
 description: >-
