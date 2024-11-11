@@ -9,7 +9,7 @@ description: >-
   predictive model for booking status classification.
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/Unsplash-EDA.jpg
   altText: Project thumbnail image
 media:
   type: ImageBlock
