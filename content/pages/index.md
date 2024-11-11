@@ -13,7 +13,9 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: Prithvee Raj Singh
+    title: >-
+      I’m an MBA, Data Scientist, investment connoisseur, & economics
+      enthusiast.
     subtitle: ''
     styles:
       self:
