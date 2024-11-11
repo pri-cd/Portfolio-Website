@@ -13,7 +13,7 @@ featuredImage:
   altText: Hotel Management EDA
 media:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/Unsplash-EDA.jpg
   altText: Project image
 ---
 
