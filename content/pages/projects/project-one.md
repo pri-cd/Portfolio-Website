@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Hotel Management EDA
 colors: colors-a
-date: '2021-10-15'
+date: '2021-11-15'
 client: Awesome client
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
