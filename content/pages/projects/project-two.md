@@ -4,7 +4,9 @@ title: Gamma and Hadron Ray Classification
 colors: colors-a
 date: '2024-10-15'
 client: Awesome client
-description: ''
+description: >-
+  A machine learning project focused onclassification to distinguish between
+  gammarays and hadron rays using variousalgorithms.
 featuredImage:
   type: ImageBlock
   url: /images/MAGIC.jpg
