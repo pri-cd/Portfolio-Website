@@ -14,7 +14,9 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: Prithvee Raj Singh
-    subtitle: ' I’m an MBA, Data Scientist, investment connoisseur, & economics enthusiast.'
+    subtitle: >-
+      I’m an MBA, Data Scientist, investment connoisseur, & economics
+      enthusiast.
     styles:
       self:
         height: auto
