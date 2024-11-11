@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: YFinance & Telegram Bot Integration
 colors: colors-a
-date: '2024-09-22'
+date: '2024-09-17'
 client: Awesome client
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
