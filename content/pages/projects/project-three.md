@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: YFinance & Telegram Bot Integration
+title: Daily Automation Project
 colors: colors-a
 date: '2024-09-15'
 client: REST API + TELEGRAM BOT
