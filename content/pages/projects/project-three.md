@@ -5,9 +5,8 @@ colors: colors-a
 date: '2024-09-15'
 client: REST API + TELEGRAM BOT
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  A simple Python app that fetches a dailyquote, stock price, and news using
+  APIs, andsends this information to a Telegram bot.
 featuredImage:
   type: ImageBlock
   url: /images/YFinance.jpg
