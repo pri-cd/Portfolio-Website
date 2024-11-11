@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Hotel Management EDA
+title: Hotel Management Analytics
 colors: colors-a
 date: '2024-11-10'
 client: Data Science & Analytics
