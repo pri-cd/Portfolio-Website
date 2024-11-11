@@ -17,15 +17,93 @@ media:
   url: /images/bg2.jpg
   altText: Project image
 ---
+## **MAGIC Gamma Telescope Dataset Analysis**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+### **Project Overview**
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+This project utilizes the MAGIC Gamma Telescope dataset to classify high-energy particle events, focusing on distinguishing between gamma rays and hadronic interactions. Donated in 2007, the dataset represents particle events captured by the MAGIC (Major Atmospheric Gamma Imaging Cherenkov) telescope, which uses advanced atmospheric Cherenkov imaging to document particle-induced air showers. The project applies various machine learning models and a neural network to identify gamma-ray events based on key imaging features.
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
+### **Dataset Summary**
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+*   **Source**: MAGIC Gamma Telescope
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+*   **Instances**: 19,020
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+*   **Features**: 10 continuous, real-valued features with no missing values
+
+*   **Task**: Binary Classification (Gamma vs. Hadron)
+
+**Key Features**:
+
+*   **fLength**: Major axis of the ellipse (mm)
+
+*   **fWidth**: Minor axis of the ellipse (mm)
+
+*   **fSize**: Logarithmic sum of pixel content
+
+*   **fConc**: Ratio of the sum of the two highest pixels to fSize
+
+*   **fAlpha**: Angle of the major axis with vector to origin (deg)
+
+*   **fDist**: Distance from origin to ellipse center (mm)
+
+### **Objectives**
+
+The main goals of this project are:
+
+1.  **Classification**: Accurately classify gamma-ray versus hadronic events.
+
+2.  **Insight Extraction**: Analyze the distinctive physical attributes of particle showers.
+
+### **Methodology**
+
+The project includes data preprocessing, feature analysis, and classification modeling to enhance performance.
+
+1.  **Data Preprocessing**: Cleaned and normalized data, and applied feature scaling.
+
+2.  **Exploratory Data Analysis (EDA)**: Analyzed feature distributions and correlations to understand data variability.
+
+3.  **Model Development**:
+
+    *   **Classical Models**: Implemented models including K-Nearest Neighbors (KNN), Naive Bayes, Logistic Regression, and Support Vector Classifier (SVC).
+
+    *   **Neural Network Model**: Developed a neural network using **TensorFlow** with hyperparameter tuning for optimal performance. This model architecture included two hidden layers with **ReLU** activations, dropout layers for regularization, and an output layer with a **sigmoid activation** for binary classification.
+
+4.  **Model Tuning and Evaluation**: Evaluated models with accuracy, precision, recall, and F1-score metrics. Conducted extensive hyperparameter tuning for the neural network, testing configurations of hidden layer nodes, dropout probabilities, learning rates, and batch sizes to minimize validation loss.
+
+### **Results**
+
+The Support Vector Classifier (SVC) and the neural network provided the best performance:
+
+*   **Support Vector Classifier (SVC)**
+
+    *   **Accuracy**: 87%
+
+    *   **Weighted F1-Score**: 0.87
+
+*   **Neural Network Model**
+
+    *   **Architecture**: Two dense layers with dropout, trained over 100 epochs.
+
+    *   **Hyperparameters**: Optimized for nodes (16, 32, 64), dropout rates (0, 0.2), learning rates (0.1, 0.005, 0.001), and batch sizes (32, 64, 128).
+
+    *   **Performance**: Achieved an accuracy of 88% with balanced precision and recall.
+
+        *   **Precision**: 0.88 (Class 0), 0.88 (Class 1)
+
+        *   **Recall**: 0.75 (Class 0), 0.94 (Class 1)
+
+        *   **F1-Score**: 0.81 (Class 0), 0.91 (Class 1)
+
+### **Visual Analysis**
+
+Training history was visualized to assess model performance over time. Plots of loss and accuracy for both training and validation data illustrated model convergence and stability. The optimized neural network demonstrated a consistently low validation loss, indicative of effective learning without overfitting.
+
+### **Conclusion**
+
+Through thorough model experimentation and hyperparameter optimization, this project effectively classified gamma and hadron events with high accuracy. With carefully tuned parameters, the neural network model proved highly effective, achieving a balanced accuracy of 88%. This demonstrates the capability of deep learning to enhance classification tasks in high-energy physics contexts, particularly in analyzing particle interactions as captured by Cherenkov telescopes.
+
+
+
+
+
