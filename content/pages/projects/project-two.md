@@ -35,17 +35,14 @@ This project utilizes the MAGIC Gamma Telescope dataset to classify high-energy 
 
 **Key Features**:
 
-*   **fLength**: Major axis of the ellipse (mm)
-
-*   **fWidth**: Minor axis of the ellipse (mm)
-
-*   **fSize**: Logarithmic sum of pixel content
-
-*   **fConc**: Ratio of the sum of the two highest pixels to fSize
-
-*   **fAlpha**: Angle of the major axis with vector to origin (deg)
-
-*   **fDist**: Distance from origin to ellipse center (mm)
+| **Variable** | **Description**                                     | **Units** |
+| ------------ | --------------------------------------------------- | --------- |
+| **fLength**  | Major axis of the ellipse                           | mm        |
+| **fWidth**   | Minor axis of the ellipse                           | mm        |
+| **fSize**    | Logarithmic sum of pixel content                    | -         |
+| **fConc**    | Ratio of the sum of the two highest pixels to fSize | -         |
+| **fAlpha**   | Angle of the major axis with vector to origin       | deg       |
+| **fDist**    | Distance from origin to ellipse center              | mm        |
 
 ### **Objectives**
 
@@ -102,8 +99,3 @@ Training history was visualized to assess model performance over time. Plots of 
 ### **Conclusion**
 
 Through thorough model experimentation and hyperparameter optimization, this project effectively classified gamma and hadron events with high accuracy. With carefully tuned parameters, the neural network model proved highly effective, achieving a balanced accuracy of 88%. This demonstrates the capability of deep learning to enhance classification tasks in high-energy physics contexts, particularly in analyzing particle interactions as captured by Cherenkov telescopes.
-
-
-
-
-
