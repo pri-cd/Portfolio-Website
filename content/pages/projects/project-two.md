@@ -16,6 +16,7 @@ media:
   type: ImageBlock
   url: /images/MAGIC.jpg
   altText: MAGIC Telescope
+  caption: This is the image of Cherenkov Telescope at Night.
 ---
 ## **MAGIC Gamma Telescope Dataset Analysis**
 
