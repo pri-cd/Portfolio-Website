@@ -5,8 +5,8 @@ colors: colors-e
 date: '2024-10-15'
 client: Machine Learning
 description: >-
-  A machine learning project focused on classifying gamma rays and hadron rays
-  using various algorithms.
+  A ML project focused on classifying gamma rays and hadron rays using various
+  algorithms.
 featuredImage:
   type: ImageBlock
   url: /images/MAGIC.jpg
