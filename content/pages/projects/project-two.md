@@ -12,6 +12,7 @@ featuredImage:
   type: ImageBlock
   url: /images/MAGIC.jpg
   altText: MAGIC Telescope
+  caption: Image of MAGIC Telescope @ Night
 media:
   type: ImageBlock
   url: /images/bg2.jpg
