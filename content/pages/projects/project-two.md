@@ -6,7 +6,7 @@ date: '2024-10-15'
 client: Awesome client
 description: >-
   A machine learning project focused onclassification to distinguish between
-  gammarays and hadron rays using variousalgorithms.
+  ggamma raysand hadron rays using variousalgorithms.
 featuredImage:
   type: ImageBlock
   url: /images/MAGIC.jpg
