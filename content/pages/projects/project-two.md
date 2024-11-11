@@ -11,7 +11,7 @@ description: >-
 featuredImage:
   type: ImageBlock
   url: /images/MAGIC.jpg
-  altText: Project thumbnail image
+  altText: MAGIC Telescope
 media:
   type: ImageBlock
   url: /images/bg2.jpg
