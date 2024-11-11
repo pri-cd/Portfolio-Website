@@ -5,8 +5,8 @@ colors: colors-a
 date: '2024-09-15'
 client: REST API + TELEGRAM BOT
 description: >-
-  A simple Python app that fetches a dailyquote, stock price, and news using
-  APIs, andsends this information to a Telegram bot.
+  A simple app that fetches a daily quote, stock price, and news using APIs, and
+  sends this information to a Telegram bot.
 featuredImage:
   type: ImageBlock
   url: /images/YFinance.jpg
