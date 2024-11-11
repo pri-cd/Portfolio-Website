@@ -17,9 +17,9 @@ sections:
       I’m an MBA, Data Scientist, investment connoisseur, & economics
       enthusiast.
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      I’m excited to share my journey and the expertise I’ve developed over the
+      past few years. Take a look below for a deeper dive into my experience,
+      skills, and the projects I’ve been passionate about.
     styles:
       self:
         height: auto
