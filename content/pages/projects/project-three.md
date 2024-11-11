@@ -11,7 +11,7 @@ description: >-
 featuredImage:
   type: ImageBlock
   url: /images/YFinance.jpg
-  altText: Project thumbnail image
+  altText: YFinance API Integration With Telegram Bot
 media:
   type: ImageBlock
   url: /images/bg3.jpg
