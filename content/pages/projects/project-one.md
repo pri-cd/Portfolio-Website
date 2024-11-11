@@ -16,15 +16,185 @@ media:
   url: /images/Unsplash-EDA.jpg
   altText: Hotel Management EDA
 ---
+### **Hotel Booking Data Analysis and Machine Learning Model Comparison**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+This analysis explores a hotel booking dataset, implementing various machine learning models to predict booking status. The goal is to understand the data, preprocess it, and evaluate multiple models for accuracy and performance. Here’s an updated summary of the exploration and model comparison.
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+### **1. Basic Understanding of the Data**
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+#### **Data Types**
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+*   **Continuous Variables**:
+
+    *   Lead Time
+
+    *   Average Price Per Room
+
+*   **Categorical Variables**:
+
+    *   Meal Plans
+
+    *   Room Type Reserved
+
+    *   Market Segment Type
+
+    *   Repeated Guest
+
+    *   Required Car Parking Space
+
+*   **Non-Categorical Variables**:
+
+    *   Adults
+
+    *   Children
+
+    *   Stays Weekends
+
+    *   Stays Weeks
+
+    *   Arrival Year
+
+    *   Arrival Month
+
+    *   Arrival Date
+
+    *   Number of Previous Bookings Cancelled
+
+    *   Number of Previous Bookings Not Cancelled
+
+    *   Number of Special Requests
+
+
+
+### **2. Data Preprocessing**
+
+The dataset was loaded and processed using the following steps:
+
+*   Column names were standardized for clarity.
+
+*   Categorical variables were identified and encoded where necessary.
+
+*   Continuous variables were scaled using a **StandardScaler** for better performance in some machine learning models.
+
+*   The data was split into training and testing sets.
+
+
+
+### **3. Machine Learning Model Evaluation**
+
+#### **Logistic Regression**
+
+*   **Accuracy**: 78.2%
+
+*   **Classification Report**:
+
+    *   Precision: 0.78 (for both classes)
+
+    *   Recall: 0.78 (for both classes)
+
+    *   F1-Score: 0.78 (for both classes)
+
+*   **Key Observations**:
+
+    *   Logistic Regression provides a baseline accuracy of 78%, which is decent for a linear model. It performs similarly on both classes.
+
+
+
+#### **Support Vector Machine (SVM)**
+
+*   **Accuracy**: 84.0% (with all data), 84.0% (with 30% data)
+
+*   **Training Time**: 4.32 seconds
+
+*   **Prediction Time**: 4.53 seconds
+
+*   **Classification Report**:
+
+    *   Precision: 0.84 (for both classes)
+
+    *   Recall: 0.84 (for both classes)
+
+    *   F1-Score: 0.84 (for both classes)
+
+*   **Key Observations**:
+
+    *   The SVM model shows significant improvement over Logistic Regression, achieving 84% accuracy. It works well even when trained on a subset of the data (30%), reducing training time without losing performance.
+
+
+
+#### **Decision Tree Classifier**
+
+*   **Accuracy**: 89.0%
+
+*   **Training Time**: 0.0041 seconds
+
+*   **Prediction Time**: 0.004 seconds
+
+*   **Classification Report**:
+
+    *   Precision: 0.87 (for class 0), 0.91 (for class 1)
+
+    *   Recall: 0.91 (for class 0), 0.87 (for class 1)
+
+    *   F1-Score: 0.89 (for both classes)
+
+*   **Key Observations**:
+
+    *   Decision Trees perform very well with 89% accuracy and are extremely fast during both training and prediction phases. The model exhibits a balanced performance across both classes.
+
+
+
+#### **K-Nearest Neighbors (KNN)**
+
+*   **Accuracy**: 89.8%
+
+*   **Prediction Time**: 12.99 seconds
+
+*   **Classification Report**:
+
+    *   Precision: 0.86 (for class 0), 0.95 (for class 1)
+
+    *   Recall: 0.95 (for class 0), 0.85 (for class 1)
+
+    *   F1-Score: 0.90 (for both classes)
+
+*   **Key Observations**:
+
+    *   KNN achieves a higher accuracy (89.8%) than Decision Trees. However, it has slower prediction times, especially when using larger data. Despite this, it provides high precision for class 1 and strong overall performance.
+
+
+
+#### **AdaBoost (with Decision Tree as base estimator)**
+
+*   **Accuracy**: 92.5%
+
+*   **Training Time**: 9.0 seconds
+
+*   **Prediction Time**: 0.3 seconds
+
+*   **Classification Report**:
+
+    *   Precision: 0.91 (for class 0), 0.94 (for class 1)
+
+    *   Recall: 0.94 (for class 0), 0.91 (for class 1)
+
+    *   F1-Score: 0.93 (for both classes)
+
+*   **Key Observations**:
+
+    *   AdaBoost achieved the best performance, with an accuracy of 92.5%. It provides a good balance between precision and recall for both classes. Training time is longer than Decision Trees and SVM, but the prediction time is fast.
+
+
+
+### **4. Summary of Best Performers**
+
+*   **Best Model**: **AdaBoost Classifier** with Decision Tree as the base estimator (92.5% accuracy).
+
+*   **Other Strong Models**: **Decision Tree Classifier** (89%), **K-Nearest Neighbors** (89.8%).
+
+*   **SVM** and **Logistic Regression** are solid models, but AdaBoost outperforms them in terms of accuracy.
+
+
+
