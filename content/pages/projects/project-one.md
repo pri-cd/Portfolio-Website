@@ -10,7 +10,7 @@ description: >-
 featuredImage:
   type: ImageBlock
   url: /images/Unsplash-EDA.jpg
-  altText: Project thumbnail image
+  altText: Hotel Management EDA
 media:
   type: ImageBlock
   url: /images/bg1.jpg
