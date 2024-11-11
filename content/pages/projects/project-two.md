@@ -6,7 +6,7 @@ date: '2024-10-15'
 client: Machine Learning
 description: >-
   A ML project focused on classifying gamma rays and hadron rays using various
-  algorithms.
+  algorithms. Such as- SVM, Logistic Regression, etc.
 featuredImage:
   type: ImageBlock
   url: /images/MAGIC.jpg
