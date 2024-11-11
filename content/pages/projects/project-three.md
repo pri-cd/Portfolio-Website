@@ -14,7 +14,7 @@ featuredImage:
 media:
   type: ImageBlock
   url: /images/Unsplash-YF.jpg
-  altText: Project image
+  altText: Financial Data Retrieval
 ---
 ### **Daily Automation – Your One-Stop Solution for Staying Motivated, Updated and Informed Every Day**
 
