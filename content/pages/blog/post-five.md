@@ -101,12 +101,6 @@ bottomSections:
         textAlign: left
       text:
         textAlign: left
-media:
-  type: ImageBlock
-  url: /images/Finance.jpg
-  altText: 'Financial Coins - '
-  caption: Different Currencies
-  elementId: ''
 ---
 # **Understanding How Psychology Influences Markets**
 
