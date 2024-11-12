@@ -105,7 +105,7 @@ media:
   type: ImageBlock
   url: /images/Finance.jpg
   altText: 'Financial Coins - '
-  caption: Caption of the image
+  caption: Different Currencies
   elementId: ''
 ---
 # **Understanding How Psychology Influences Markets**
