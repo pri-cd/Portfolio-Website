@@ -45,7 +45,7 @@ bottomSections:
     showReadMoreLink: true
 backgroundImage:
   type: BackgroundImage
-  url: /images/Gradient.jpg
+  url: /images/featured-Image1.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
