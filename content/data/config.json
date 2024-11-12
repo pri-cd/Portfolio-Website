@@ -58,8 +58,8 @@
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
-                "altText": ""
+                "url": "mailto:undefined.pri@yahoo.com",
+                "altText": "Email"
             },
             {
                 "type": "Link",
@@ -70,7 +70,7 @@
             {
                 "type": "Link",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
+                "url": "https://github.com/pri-cd",
                 "altText": "Netlify templates"
             }
         ],
