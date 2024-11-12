@@ -104,7 +104,7 @@ bottomSections:
 media:
   type: ImageBlock
   url: /images/Finance.jpg
-  altText: altText of the image
+  altText: 'Financial Coins - '
   caption: Caption of the image
   elementId: ''
 ---
