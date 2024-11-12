@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: "Behavioral Finance and Market Anomalies \U0001F4B2"
-colors: colors-b
+colors: colors-c
 date: '2024-11-12'
 author: content/data/team/doris-soto.json
 excerpt: in-depth understanding of the most common biases in beahvioural finance.
