@@ -89,7 +89,7 @@ sections:
     elementId: ''
     colors: colors-f
     variant: variant-d
-    subtitle: ''
+    subtitle: Showcasing Innovation and Success
     showFeaturedImage: false
     actions:
       - type: Link
