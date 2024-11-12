@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: ''
+title: 'Behavioral Finance and Market Anomalies '
 colors: colors-a
 date: '2024-06-10'
 author: content/data/team/doris-soto.json
