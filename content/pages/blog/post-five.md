@@ -2,7 +2,7 @@
 type: PostLayout
 title: "Behavioral Finance and Market Anomalies \U0001F4B2"
 colors: colors-a
-date: '2024-11-02'
+date: '2024-11-12'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
