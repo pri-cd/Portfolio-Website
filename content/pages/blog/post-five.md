@@ -9,6 +9,7 @@ featuredImage:
   type: ImageBlock
   url: /images/Finance.jpg
   altText: 'Behavioral Finance '
+  caption: Several Finance & Understanding How to Mitigate Them..
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
