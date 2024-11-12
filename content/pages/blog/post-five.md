@@ -8,7 +8,7 @@ excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image5.jpg
-  altText: Post thumbnail image
+  altText: 'Behavioral Finance '
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
