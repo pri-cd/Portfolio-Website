@@ -4,7 +4,7 @@ title: "Behavioral Finance and Market Anomalies \U0001F4B2"
 colors: colors-a
 date: '2024-06-10'
 author: content/data/team/doris-soto.json
-excerpt: in-depth understanding of most common biases in beahvioural finance.
+excerpt: in-depth understanding of the most common biases in beahvioural finance.
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image1.jpg
