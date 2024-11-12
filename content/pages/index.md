@@ -98,6 +98,7 @@ sections:
     posts:
       - content/pages/blog/post-four.md
       - content/pages/blog/post-three.md
+      - content/pages/blog/post-five.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
