@@ -127,4 +127,5 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
+    title: Featured Posts
 ---
