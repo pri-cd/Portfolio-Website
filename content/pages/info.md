@@ -102,6 +102,7 @@ sections:
     colors: colors-f
     text: |
       undefined.pri\@yahoo.com
+    title: Contact
   - type: DividerSection
     styles:
       self:
