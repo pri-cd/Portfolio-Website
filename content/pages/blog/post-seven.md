@@ -4,7 +4,7 @@ title: "Recession and Inflation \U0001F4C9"
 colors: colors-a
 date: '2024-10-03'
 author: content/data/team/doris-soto.json
-excerpt: in-depth understanding of the most common biases in beahvioural finance.
+excerpt: Clearing confusion between Recession and Inflation
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image1.jpg
