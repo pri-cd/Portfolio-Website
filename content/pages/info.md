@@ -65,7 +65,7 @@ sections:
       - type: Label
         label: Python
       - type: Label
-        label: React
+        label: Machine Learning
       - type: Label
         label: Microsoft Office
       - type: Label
