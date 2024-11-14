@@ -4,7 +4,7 @@ title: Home
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
+  url: /images/web-gradient.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -47,6 +47,17 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-36
+          - pb-36
+        justifyContent: center
+        borderWidth: 1
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -85,6 +96,17 @@ sections:
       actions:
         justifyContent: flex-end
     subtitle: Projects
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    styles:
+      self:
+        width: full
+        padding:
+          - pt-36
+          - pb-36
+        justifyContent: center
+        borderWidth: 1
   - type: FeaturedPostsSection
     elementId: ''
     colors: colors-f
@@ -98,14 +120,14 @@ sections:
     posts:
       - content/pages/blog/post-five.md
       - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
+      - content/pages/blog/post-seven.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
     styles:
       self:
         height: auto
-        width: narrow
+        width: wide
         margin:
           - mt-0
           - mb-0
