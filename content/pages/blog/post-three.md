@@ -2,7 +2,7 @@
 type: PostLayout
 title: Understanding the Financial Impact of Decentralized Technologies
 colors: colors-b
-date: '2024-01-01'
+date: '2024-10-01'
 author: content/data/team/doris-soto.json
 excerpt: ''
 featuredImage:
