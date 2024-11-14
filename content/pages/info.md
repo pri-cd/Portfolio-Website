@@ -98,7 +98,7 @@ sections:
         borderStyle: solid
   - type: TextSection
     variant: variant-a
-    subtitle: 'Need to collaborate? '
+    subtitle: Need to collaborate?
     colors: colors-f
     text: |
       undefined.pri\@yahoo.com
