@@ -13,11 +13,15 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    text: >+
+      Driven MBA specializing in **Finance**, **Data Analytics**, and **Embedded
+      Systems**, with hands-on experience in **machine learning**, **Business
+      analytics**, **Investment analysis**, and software development, backed by
+      strong **technical** and **analytical expertise**.
+
+
+
+
     media:
       type: ImageBlock
       url: /images/Credits-Freepik.jpg
