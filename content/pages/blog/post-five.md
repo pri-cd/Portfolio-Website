@@ -9,7 +9,7 @@ featuredImage:
   type: ImageBlock
   url: /images/Finance.jpg
   altText: 'Behavioral Finance '
-  caption: Several Finance & Understanding How to Mitigate Them..
+  caption: Most common biases in Behavioural Finance
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
