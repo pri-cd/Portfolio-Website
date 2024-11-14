@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: "Sharing my wisdom with the world \U0001F30E"
+title: "How Political Power Shapes Economic Outcomes, Geoeconomics\U0001F30E"
 colors: colors-a
 date: '2024-02-01'
 author: content/data/team/doris-soto.json
