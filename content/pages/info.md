@@ -75,7 +75,7 @@ sections:
       - type: Label
         label: C++ Programming
       - type: Label
-        label: C++
+        label: PowerBI
       - type: Label
         label: Swift
   - type: DividerSection
