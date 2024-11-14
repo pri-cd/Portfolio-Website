@@ -8,7 +8,7 @@ excerpt: Clearing confusion between Recession and Inflation
 featuredImage:
   type: ImageBlock
   url: /images/Inflation.jpg
-  altText: Post thumbnail image
+  altText: inflation & Recession
 backgroundImage:
   type: BackgroundImage
   url: /images/gallery-3.jpg
