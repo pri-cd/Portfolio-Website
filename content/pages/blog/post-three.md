@@ -4,7 +4,7 @@ title: The Economics of Cryptocurrencies and Blockchain
 colors: colors-b
 date: '2024-01-01'
 author: content/data/team/doris-soto.json
-excerpt: More context that may or may not be helpful
+excerpt: ''
 featuredImage:
   type: ImageBlock
   url: /images/traxer-kM6QNrgo0YE-unsplash.jpg
