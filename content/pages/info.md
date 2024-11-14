@@ -69,7 +69,7 @@ sections:
       - type: Label
         label: Microsoft Office
       - type: Label
-        label: Next.js
+        label: GitHub
       - type: Label
         label: Netlify
       - type: Label
