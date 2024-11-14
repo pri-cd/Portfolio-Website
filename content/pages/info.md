@@ -71,7 +71,7 @@ sections:
       - type: Label
         label: GitHub
       - type: Label
-        label: Netlify
+        label: C Programming
       - type: Label
         label: Pancakes
       - type: Label
