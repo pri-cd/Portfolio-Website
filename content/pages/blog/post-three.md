@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Understanding the Financial Impact of Decentralized Technologies
+title: The Economics of Cryptocurrencies and Blockchain
 colors: colors-b
 date: '2024-10-16'
 author: content/data/team/doris-soto.json
