@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: "Behavioral Finance and Market Anomalies \U0001F4B2"
+title: "Recession and Inflation \U0001F4C9"
 colors: colors-a
 date: '2024-06-10'
 author: content/data/team/doris-soto.json
