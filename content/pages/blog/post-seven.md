@@ -50,11 +50,9 @@ bottomSections:
     showFeaturedImage: true
     showReadMoreLink: true
 ---
-# **Recession and Inflation: What They Are, How They Happen, and How History Has Shaped Their Solutions**
+## **Recession and Inflation: What They Are, How They Happen, and How History Has Shaped Their Solutions**
 
 When it comes to the economy, terms like **recession** and **inflation** often get tossed around, but what do they **REALLY** mean? And more importantly, why do they happen, and how can they be solved? In this blog, we’ll break down these concepts using simple examples and explore real-world historical events to understand how recessions and inflation occur and how governments have tackled them.
-
-
 
 ### **What is Recession?**
 
@@ -72,9 +70,7 @@ Recessions can happen for several reasons:
 
 *   **Financial problems**: If a bank or a company makes bad decisions with money, it can cause problems for everyone.
 
-
-
-### **What is Inflation? <sup>📉</sup>**
+### **What is Inflation?** <sup>**📉**</sup>
 
 **Inflation** is when the prices of goods and services go up over time. When inflation happens, money doesn’t buy as much as it used to. So, if you could buy 5 toys with $10 yesterday, you might only be able to buy 4 toys with that same $10 today.
 
@@ -89,8 +85,6 @@ Inflation can happen for a few reasons:
 *   **Production costs rise**: If it costs the factory more to make the toy, they might raise the price to cover those extra costs.
 
 *   **Too much money in the economy**: If the government prints too much money, the value of that money goes down, and prices start to rise.
-
-
 
 ### Historical Event #1: **The Great Depression (1930s)** - A Severe Recession
 
@@ -116,8 +110,6 @@ The U.S. government, under President **Franklin D. Roosevelt**, created the **Ne
 
 Over time, these actions helped the economy recover, and by the early 1940s, World War II helped create even more jobs.
 
-
-
 ### Historical Event #2: **The 1970s Stagflation** - The Rise of Inflation
 
 **What Happened?**
@@ -135,8 +127,6 @@ Several things caused stagflation in the 1970s:
 **How Was It Solved?**
 To fix inflation, the U.S. **Federal Reserve** (the central bank) raised **interest rates** (making borrowing more expensive). Although this led to a short recession and more unemployment, it helped bring down prices in the long run. This policy was tough but necessary to control inflation.
 
-
-
 ### Conclusion: Understanding Recession and Inflation
 
 Both **recessions** and **inflation** are key economic events that can significantly affect people’s lives. A **recession** happens when the economy slows down, leading to job losses and reduced spending, while **inflation** is when prices rise, making goods and services more expensive.
@@ -144,6 +134,3 @@ Both **recessions** and **inflation** are key economic events that can significa
 By looking at the **Great Depression** and **stagflation** in the 1970s, we see how these events shaped history and how they were managed. The **New Deal** helped the U.S. recover from the Great Depression, while **interest rate hikes** helped fight the inflation of the 1970s.
 
 Just like the example of your lemonade stand or candy bars, these economic events impact everyone, and governments have to step in to help fix the problems. Understanding why recessions and inflation happen, and how they are solved, can help you make sense of the world around you.
-
-
-
