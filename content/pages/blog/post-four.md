@@ -7,7 +7,7 @@ author: content/data/team/doris-soto.json
 excerpt: Changes in Politics ❌ Changes in Economy✅
 featuredImage:
   type: ImageBlock
-  url: /images/Geoeconomics.jpg
+  url: /images/Geo.jpg
   altText: 'Geoeconomics '
 bottomSections:
   - elementId: ''
