@@ -4,7 +4,7 @@ title: The Economics of Cryptocurrencies and Blockchain
 colors: colors-b
 date: '2024-10-16'
 author: content/data/team/doris-soto.json
-excerpt: ''
+excerpt: Understanding the Financial Impact of Decentralized Technologies
 featuredImage:
   type: ImageBlock
   url: /images/traxer-kM6QNrgo0YE-unsplash.jpg
