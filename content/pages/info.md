@@ -77,7 +77,7 @@ sections:
       - type: Label
         label: PowerBI
       - type: Label
-        label: Swift
+        label: Investment Analysis
   - type: DividerSection
     styles:
       self:
