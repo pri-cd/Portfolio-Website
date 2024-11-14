@@ -7,7 +7,7 @@ author: content/data/team/doris-soto.json
 excerpt: Clearing confusion between Recession and Inflation
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image1.jpg
+  url: /images/Inflation.jpg
   altText: Post thumbnail image
 backgroundImage:
   type: BackgroundImage
