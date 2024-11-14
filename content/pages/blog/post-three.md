@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Composable - the future of web
+title: The Economics of Cryptocurrencies and Blockchain
 colors: colors-b
 date: '2024-01-01'
 author: content/data/team/doris-soto.json
