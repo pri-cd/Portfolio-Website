@@ -4,7 +4,7 @@ title: 'Blogs '
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg2.jpg
+  url: /images/Gradient.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
