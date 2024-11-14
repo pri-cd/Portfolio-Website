@@ -26,7 +26,7 @@ postFeed:
         - pl-4
         - pr-4
         - pb-12
-  title: DDDD
+  title: ''
 styles:
   title:
     textAlign: left
