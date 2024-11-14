@@ -1,11 +1,11 @@
 {
     "type": "Config",
-    "favicon": "/images/favicon.svg",
+    "favicon": "/images/P.png",
     "header": {
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "Prithvee Raj Singh",
         "isTitleVisible": true,
         "primaryLinks": [
             {
@@ -53,7 +53,7 @@
                 "type": "Link",
                 "label": "Info",
                 "url": "/info",
-                "altText": ""
+                "altText": "information & Personal Data"
             },
             {
                 "type": "Link",
@@ -71,7 +71,7 @@
                 "type": "Link",
                 "label": "GitHub",
                 "url": "https://github.com/pri-cd",
-                "altText": "Netlify templates"
+                "altText": "Prithvee Raj's GitHub"
             }
         ],
         "contacts": {
@@ -81,7 +81,7 @@
             "phoneAltText": "",
             "email": "undefined.pri@yahoo.com",
             "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
+            "address": "Muradnagar, Ghaziabad, UP, 201206",
             "addressAltText": "My address"
         },
         "copyrightText": "Created By Prithvee Raj Singh\n",
