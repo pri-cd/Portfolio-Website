@@ -8,7 +8,7 @@ excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
   url: /images/Geoeconomics.jpg
-  altText: Post thumbnail image
+  altText: 'Geoeconomics '
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
