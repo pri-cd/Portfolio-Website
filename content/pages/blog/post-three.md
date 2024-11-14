@@ -8,7 +8,7 @@ excerpt: More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
   url: /images/traxer-kM6QNrgo0YE-unsplash.jpg
-  altText: Post thumbnail image
+  altText: Cryptocurrency
 backgroundImage:
   type: BackgroundImage
   url: /images/gallery-2.jpg
