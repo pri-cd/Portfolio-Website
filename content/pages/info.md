@@ -14,13 +14,10 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      Driven MBA specializing in **Finance**, **Data Analytics**, and **Embedded
-      Systems**, with hands-on experience in **machine learning**, **Business
-      analytics**, **Investment analysis**, and software development, backed by
-      strong **technical** and **analytical expertise**.
-
-
-
+      ## Driven MBA specializing in **Finance**, **Data Analytics**, and
+      **Embedded Systems**, with hands-on experience in **machine learning**,
+      **Business analytics**, **Investment analysis**, and software development,
+      backed by strong **technical** and **analytical expertise**.
 
     media:
       type: ImageBlock
