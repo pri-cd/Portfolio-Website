@@ -78,6 +78,9 @@ sections:
         label: PowerBI
       - type: Label
         label: Investment Analysis
+      - type: Label
+        label: Fundamental Analysis
+        url: ''
   - type: DividerSection
     styles:
       self:
