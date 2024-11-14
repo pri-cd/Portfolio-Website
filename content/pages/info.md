@@ -81,6 +81,9 @@ sections:
       - type: Label
         label: Fundamental Analysis
         url: ''
+      - type: Label
+        label: Technical Analysis
+        url: ''
   - type: DividerSection
     styles:
       self:
