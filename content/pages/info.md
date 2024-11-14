@@ -73,7 +73,7 @@ sections:
       - type: Label
         label: C Programming
       - type: Label
-        label: Pancakes
+        label: C++ Programming
       - type: Label
         label: C++
       - type: Label
