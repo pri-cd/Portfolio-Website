@@ -101,7 +101,7 @@ sections:
     subtitle: Need to collaborate?
     colors: colors-f
     text: |
-      undefined.pri\@yahoo.com
+      <undefined.pri@yahoo.com>
     title: Contact
   - type: DividerSection
     styles:
