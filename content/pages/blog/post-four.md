@@ -4,7 +4,7 @@ title: "How Political Power Shapes Economic Outcomes\U0001F30E"
 colors: colors-a
 date: '2024-11-14'
 author: content/data/team/doris-soto.json
-excerpt: 'Changes in '
+excerpt: Changes in Politics ❌ Changes in Economy✅
 featuredImage:
   type: ImageBlock
   url: /images/Geoeconomics.jpg
