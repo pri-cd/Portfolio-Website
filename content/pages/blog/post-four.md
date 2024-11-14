@@ -2,7 +2,7 @@
 type: PostLayout
 title: "How Political Power Shapes Economic Outcomes\U0001F30E"
 colors: colors-a
-date: '2024-02-01'
+date: '2024-11-14'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
