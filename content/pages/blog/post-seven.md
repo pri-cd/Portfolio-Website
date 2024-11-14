@@ -2,7 +2,7 @@
 type: PostLayout
 title: "Recession and Inflation \U0001F4C9"
 colors: colors-a
-date: '2024-06-10'
+date: '2024-06-03'
 author: content/data/team/doris-soto.json
 excerpt: in-depth understanding of the most common biases in beahvioural finance.
 featuredImage:
